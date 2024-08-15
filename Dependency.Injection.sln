@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency.Injection.DataModel", "Dependency.Injection.DataModel\Dependency.Injection.DataModel.csproj", "{15DAA927-6B3C-48F9-A684-5DBE77744216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency.Injection.DataMocking", "Dependency.Injection.DataMocking\Dependency.Injection.DataMocking.csproj", "{7E46959F-A918-48FD-919A-0A7C0B186866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency.Injection.DataClient", "Dependency.Injection.DataClient\Dependency.Injection.DataClient.csproj", "{DEDAF7BA-A7A6-4735-ABF7-0C3B8C40B6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency.Injection.DataAccess", "Dependency.Injection.DataAccess\Dependency.Injection.DataAccess.csproj", "{D8F41BAB-AA58-460C-B48A-E7C96CA6A8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency.Injection.WPFHost", "Dependency.Injection.WPFHost\Dependency.Injection.WPFHost.csproj", "{9A3756D6-8F9A-4A4E-BA49-AFC6A87EE3C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A3F16E2B-6541-4EB4-A0DA-E6D97C380D83}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Dependency.Injection.Database", "Dependency.Injection.Database\Dependency.Injection.Database.sqlproj", "{DCB72207-2254-41A4-A84E-7F732BC49A93}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://downstairs:8080/tfs/sourcecode
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Dependency.Injection.DataModel\\Dependency.Injection.DataModel.csproj
+		SccProjectName1 = Dependency.Injection.DataModel
+		SccLocalPath1 = Dependency.Injection.DataModel
+		SccProjectUniqueName2 = Dependency.Injection.DataMocking\\Dependency.Injection.DataMocking.csproj
+		SccProjectName2 = Dependency.Injection.DataMocking
+		SccLocalPath2 = Dependency.Injection.DataMocking
+		SccProjectUniqueName3 = Dependency.Injection.DataClient\\Dependency.Injection.DataClient.csproj
+		SccProjectName3 = Dependency.Injection.DataClient
+		SccLocalPath3 = Dependency.Injection.DataClient
+		SccProjectUniqueName4 = Dependency.Injection.DataAccess\\Dependency.Injection.DataAccess.csproj
+		SccProjectName4 = Dependency.Injection.DataAccess
+		SccLocalPath4 = Dependency.Injection.DataAccess
+		SccProjectUniqueName5 = Dependency.Injection.WPFHost\\Dependency.Injection.WPFHost.csproj
+		SccProjectName5 = Dependency.Injection.WPFHost
+		SccLocalPath5 = Dependency.Injection.WPFHost
+		SccProjectUniqueName6 = Dependency.Injection.Database\\Dependency.Injection.Database.sqlproj
+		SccProjectName6 = Dependency.Injection.Database
+		SccLocalPath6 = Dependency.Injection.Database
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DAA927-6B3C-48F9-A684-5DBE77744216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DAA927-6B3C-48F9-A684-5DBE77744216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DAA927-6B3C-48F9-A684-5DBE77744216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DAA927-6B3C-48F9-A684-5DBE77744216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E46959F-A918-48FD-919A-0A7C0B186866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E46959F-A918-48FD-919A-0A7C0B186866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E46959F-A918-48FD-919A-0A7C0B186866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E46959F-A918-48FD-919A-0A7C0B186866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDAF7BA-A7A6-4735-ABF7-0C3B8C40B6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDAF7BA-A7A6-4735-ABF7-0C3B8C40B6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDAF7BA-A7A6-4735-ABF7-0C3B8C40B6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDAF7BA-A7A6-4735-ABF7-0C3B8C40B6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F41BAB-AA58-460C-B48A-E7C96CA6A8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F41BAB-AA58-460C-B48A-E7C96CA6A8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F41BAB-AA58-460C-B48A-E7C96CA6A8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F41BAB-AA58-460C-B48A-E7C96CA6A8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3756D6-8F9A-4A4E-BA49-AFC6A87EE3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3756D6-8F9A-4A4E-BA49-AFC6A87EE3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3756D6-8F9A-4A4E-BA49-AFC6A87EE3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3756D6-8F9A-4A4E-BA49-AFC6A87EE3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB72207-2254-41A4-A84E-7F732BC49A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB72207-2254-41A4-A84E-7F732BC49A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB72207-2254-41A4-A84E-7F732BC49A93}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DCB72207-2254-41A4-A84E-7F732BC49A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB72207-2254-41A4-A84E-7F732BC49A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB72207-2254-41A4-A84E-7F732BC49A93}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
